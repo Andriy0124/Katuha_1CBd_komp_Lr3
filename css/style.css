@@ -1,0 +1,356 @@
+body {
+    margin: auto;
+    width: 1170px;
+}
+
+header {
+    width: 1170px;
+    height: 150px;
+    background-color: rgba(242, 243, 245);
+    justify-content: center;
+}
+
+p, h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus {
+    color: green;
+    border: 5px solid green;
+}
+
+input:active {
+    border: 1px solid green;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:focus {
+    background-color: green;
+    color: red;
+}
+.backg{
+    background-color: white;
+    height: auto;
+    width: 1170px;
+    
+}
+.LINE0 {
+    height: 90px;
+    width: 2px;
+    background-color: rgb(195, 195, 195);
+    margin: 30px 150px 0 40px;
+}
+
+.Text {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.top {
+    margin-top: -15px;
+}
+
+.Text div {
+    text-align: center;
+}
+
+.Text img {
+    height: auto;
+    width: 80px;
+}
+
+.spacer-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.spacer-text, .spacer-text2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px -80px 0px -20px;
+    width: 45%;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 80px;
+}
+
+.block1 {
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid rgb(235, 239, 240);
+}
+
+.PAYPAL {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(235, 239, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.PAYPAL label {
+    margin-top: -50px;
+    display: flex;
+}
+
+.PAYPAL p {
+    margin-left: -44px;
+    margin-top: 40px;
+    color: #777777;
+}
+
+.PAYPAL img {
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.Cart input {
+    margin-top: 21px;
+}
+
+.Cart p {
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #777777;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -95px;
+    margin-right: 15px;
+}
+
+.cards {
+    width: 30px;
+    height: 20px;
+}
+
+.marg_lft_5px {
+    margin-left: 2px;
+}
+
+.LINE {
+    width: 450px;
+    height: 2px;
+    background-color: grey;
+    margin: 65px auto;
+}
+
+.Info {
+    margin-left: 30px;
+    height: auto;
+    margin-top: -60px;
+    position: relative;
+}
+
+.info {
+    margin-top: -30px;
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.info-image {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+}
+
+.info-image img {
+    width: 35px;
+    height: 35px;
+}
+
+.Code {
+    display: flex;
+    flex-direction: initial;
+    margin-left: 30px;
+}
+
+.code-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.vopros{ 
+    margin-top: 2px;
+    margin-left: 5px; 
+    height: 15px; 
+    width: 15px; 
+  } 
+  .vopros:hover{ 
+    content: url(../img/22.svg); 
+  }
+.info-image1 {
+    position: absolute;
+    top: 537px;
+    right: 1010px;
+}
+
+.info-image1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.code-text {
+    margin: 0 140px 0 0;
+    margin-bottom: 5px;
+}
+
+.code-text1 {
+    margin: 0 80px 0 0;
+    margin-bottom: 5px;
+}
+
+.code1 {
+    margin: 0px 0px 0px 50px;
+}
+
+.code {
+    width: 180px;
+    height: 30px;
+}
+
+.Info1 {
+    margin-left: 30px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.info1 {
+    margin-top: -10px;
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.block2 {
+    height: 500px;
+    width: 300px;
+    margin: 0 100px;
+}
+
+.LINE1 {
+    width: 300px;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.discount {
+    text-align: left;
+    display: inline;
+}
+
+.discref {
+    margin-top: -18px;
+    text-align: right;
+}
+
+.LINE2 {
+    width: 300px;
+    height: 2px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+price {
+    padding-top: 40px;
+}
+
+a {
+    color: green;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.color:active{
+    background-color: blue;
+}
+.dscref {
+    margin-top: -25px;
+    text-align: right;
+    color: green;
+    font-size: 20px;
+}
+
+.foto {
+    width: 300px;
+    height: 210px;
+    background-color: rgb(242, 243, 245);
+    margin-bottom: -40px;
+}
+
+.foto h2 {
+    font-size: 11px;
+    margin-left: 70px;
+    margin-top: -45px;
+}
+
+.foto p {
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: 11px;
+}
+
+.foto img {
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 45px;
+    width: 45px;
+}
+
+.LINE3 {
+    width: 1180px;
+    height: 2px;
+    background-color: grey;
+    margin-top: 30px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: initial;
+    justify-content: end;
+    text-align: right;
+    margin: 30px 0 0 40px;
+}
+
+.block3 p {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+button {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    justify-content: left;
+}
+
+.GO {
+    margin-right: 450px;
+}
+
+OUT {
+    width: 190px;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: end;
+}
